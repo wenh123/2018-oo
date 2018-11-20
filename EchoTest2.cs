@@ -127,7 +127,7 @@ public class EchoTest : MonoBehaviour {
                  Headlights: 1       split[56] : split[59]
                  Baba: 1             split[62] : split[65]
                  */
-               //Debug.Log(reply);
+               Debug.Log(reply);
             }
             if (w.error != null || reply == null)
             {
