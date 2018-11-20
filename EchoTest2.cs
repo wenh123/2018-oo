@@ -131,7 +131,7 @@ public class EchoTest : MonoBehaviour {
             }
             if (w.error != null || reply == null)
             {
-                
+                Debug.Log("NULL");
                 //yield return StartCoroutine(w.Connect());
 
             }
