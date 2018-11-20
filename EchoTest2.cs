@@ -45,7 +45,7 @@ public class EchoTest : MonoBehaviour {
         // WebSocket w = new WebSocket(new Uri("ws://127.0.0.1:8877"));
         //yield return StartCoroutine(w.Connect());
 
-        sp = new SerialPort("COM3", 115200);
+        System.IO.Ports.SerialPort sp = new System.IO.Ports.SerialPort("COM3", 115200);
 
         sp.ReadTimeout = 10;
         sp.Open();
