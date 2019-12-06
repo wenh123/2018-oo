@@ -10,7 +10,7 @@
 
 ###### project name: vs ocde
 
-```csharp=
+```c#
 using UnityEngine;
 using System.Collections;
 using System;
